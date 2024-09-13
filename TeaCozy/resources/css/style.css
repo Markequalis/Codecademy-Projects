@@ -1,0 +1,102 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    opacity: 1;
+    z-index: 0.2;
+}
+
+header .logo {
+    justify-content: flex-start;
+    margin-left: 10px;
+    height: 50px;
+    z-index: inherit;
+}
+
+.breadcrumb a {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+.breadcrumb a:hover {
+    text-decoration: none;
+}
+
+.breadcrumb li {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.mission {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/mission-background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+
+}
+
+.mission h2,
+.mission h4 {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.totm li {
+    display: inline-flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.totm img {
+    height: 200px;
+    width: 300px;
+}
+
+.totm figcaption {
+    line-height: 10px;
+}
+
+.border  {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    border-bottom: 1px solid seashell;
+    position: relative; 
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.border1 {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    border-bottom: 1px solid seashell;
+    position: relative; 
+    justify-content: center;
+}
