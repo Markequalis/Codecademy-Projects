@@ -100,3 +100,16 @@ header .logo {
     position: relative; 
     justify-content: center;
 }
+
+.locations {
+    display: inline-flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between center;
+    background-image: url(../images/locations-background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    padding: 50px;
+}
