@@ -76,6 +76,7 @@ nav a {
 }
 
 nav .button {
+  font-family: 'Roboto';
   padding: .1875rem .5rem;
   background-color: #9dc20b;
   line-height: 1.6;
@@ -162,11 +163,16 @@ header .mobile {
   color: white;
 }
 
+#sign-up-cta .email {
+  text-align: center;
+}
+
 #sign-up-cta span strong {
   font-weight: bold;
 }
 
 #sign-up-cta .cursive {
+  text-align: center;
   font-family: cursive;
   font-style: italic;
   font-size: 2.25rem;
@@ -174,6 +180,7 @@ header .mobile {
 
 
 #sign-up-cta .striking {
+  text-align: center;
   font-family: 'Rubik', sans-serif;
   padding-bottom: .75rem;
   font-size: 3.125rem;
@@ -182,6 +189,10 @@ header .mobile {
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+  font-family: 'Roboto';
+  font-weight: medium;
+  font-size: 1.25rem;
+  line-height: 1.4;
 }
 
 @media only screen and (max-width: 895px) {
@@ -315,6 +326,8 @@ header .mobile {
 }
 
 #filters-section .content {
+  display: block;
+  text-align: center;
   padding: 0 .625rem;
   margin-bottom: 5rem;
 }
@@ -435,6 +448,16 @@ footer .content {
 }
 
 footer .copyright {
+  display: flex;
+  font-size: .75rem;
+  flex-grow: 1;
+}
+
+footer .location {
+  display: flex;
+  align-content: right;
+  justify-content: right;
+  font-size: .75rem;
   flex-grow: 1;
 }
 
